@@ -35,6 +35,6 @@ connect_to_postgres_db <- function(url) {
 #' @export
 connect_to_understat_db <- function() {
   connect_to_postgres_db(
-    url = UNDERSTAT_URL
+    url = Sys.getenv('UNDERSTAT_URL')
   )
 }

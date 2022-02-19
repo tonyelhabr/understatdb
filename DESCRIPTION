@@ -1,5 +1,5 @@
 Package: understatdb
-Title: R package for understat database.
+Title: R package for understat database
 Version: 0.0.1
 Authors@R: 
     person(given = "Tony",
