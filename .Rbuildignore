@@ -1,8 +1,5 @@
 ^renv$
 ^renv\.lock$
-^canzhi\.Rproj$
+^understatdb\.Rproj$
 ^\.Rproj\.user$
-^data-raw$
-^dev$
-^queries$
 ^LICENSE\.md$
