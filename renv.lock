@@ -106,6 +106,13 @@
       "Repository": "RSPM",
       "Hash": "e3ae5d68dea0c55a12ea12a9fda02e61"
     },
+    "clipr": {
+      "Package": "clipr",
+      "Version": "0.7.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "ebaa97ac99cc2daf04e77eecc7b781d7"
+    },
     "commonmark": {
       "Package": "commonmark",
       "Version": "1.7",
@@ -160,6 +167,13 @@
       "RemotePkgPlatform": "windows",
       "RemoteSha": "0.6.28",
       "Hash": "49b5c6e230bfec487b8917d5a0c77cca"
+    },
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.0.7",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "36f1ae62f026c8ba9f9b5c9a08c03297"
     },
     "ellipsis": {
       "Package": "ellipsis",
@@ -307,12 +321,26 @@
       "Repository": "RSPM",
       "Hash": "a555924add98c99d2f411e37e7d25e9f"
     },
+    "prettyunits": {
+      "Package": "prettyunits",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "95ef9167b75dde9d2ccc3c7528393e7e"
+    },
     "processx": {
       "Package": "processx",
       "Version": "3.5.2",
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "0cbca2bc4d16525d009c4dbba156b37c"
+    },
+    "progress": {
+      "Package": "progress",
+      "Version": "1.2.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "14dc9f7a3c91ebb14ec5bb9208a07061"
     },
     "ps": {
       "Package": "ps",
@@ -327,6 +355,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "97def703420c8ab10d8f0e6c72101e02"
+    },
+    "readr": {
+      "Package": "readr",
+      "Version": "2.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "6c825746f32a68f4d8c40f94da5b1ac5"
     },
     "rematch2": {
       "Package": "rematch2",
@@ -370,12 +405,26 @@
       "Repository": "RSPM",
       "Hash": "06c85365a03fdaf699966cc1d3cf53ea"
     },
+    "rvest": {
+      "Package": "rvest",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "1db38d6f40e3e09527797ca4226a1b5b"
+    },
     "secret": {
       "Package": "secret",
       "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "b66e4c16becd7f937c47f4a7b9cfe35d"
+    },
+    "selectr": {
+      "Package": "selectr",
+      "Version": "0.4-2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "3838071b66e0c566d55cc26bd6e27bf4"
     },
     "stringi": {
       "Package": "stringi",
@@ -412,6 +461,20 @@
       "Repository": "RSPM",
       "Hash": "5e8ad5621e5c94b24ec07b88eee13df8"
     },
+    "tidyselect": {
+      "Package": "tidyselect",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "7243004a708d06d4716717fa1ff5b2fe"
+    },
+    "tzdb": {
+      "Package": "tzdb",
+      "Version": "0.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5e069fb033daf2317bd628d3100b75c5"
+    },
     "utf8": {
       "Package": "utf8",
       "Version": "1.2.2",
@@ -425,6 +488,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "ecf749a1b39ea72bd9b51b76292261f1"
+    },
+    "vroom": {
+      "Package": "vroom",
+      "Version": "1.5.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0af818392e60673cd8968ab9119c30a7"
     },
     "waldo": {
       "Package": "waldo",
