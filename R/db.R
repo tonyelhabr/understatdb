@@ -31,7 +31,7 @@ connect_to_postgres_db <- function(url) {
 .get_understat_url <- function(vault = 'vault', ...) {
   url <- tryCatch(
     error = function(cnd) NULL,
-    secret::get_secret('UNDERSTAT_URL', vault = vautl, ...)
+    secret::get_secret('UNDERSTAT_URL', vault = vault, ...)
   )
   if(!is.null(url)) {
     return(url)
