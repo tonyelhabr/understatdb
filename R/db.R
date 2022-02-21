@@ -28,7 +28,7 @@ connect_to_postgres_db <- function(url) {
 }
 
 #' @importFrom secret get_secret
-.get_understat_url <- function(vault = 'vault', ...) {
+.get_understat_url <- function(vault = system.file('vault', package = 'understatdb'), ...) {
   url <- tryCatch(
     error = function(cnd) NULL,
     secret::get_secret('UNDERSTAT_URL', vault = vault, ...)
