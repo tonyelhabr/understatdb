@@ -27,10 +27,11 @@ connect_to_postgres_db <- function(url) {
   )
 }
 
-.get_understat_url <- function() {
+#' @importFrom secret get_secret
+.get_understat_url <- function(vault = 'vault', ...) {
   url <- tryCatch(
     error = function(cnd) NULL,
-    secret::get_secret('UNDERSTAT_URL')
+    secret::get_secret('UNDERSTAT_URL', vault = vautl, ...)
   )
   if(!is.null(url)) {
     return(url)
@@ -40,10 +41,11 @@ connect_to_postgres_db <- function(url) {
 
 #' Connect to the understat database
 #'
-#' @importFrom secret get_secret
+#' @param ... additional parameters to pass to `secret::get_secret` (not `name`). An attempt is made to retrieve the db url from a secret or environment variable at `UNDERSTAT_URL`
 #' @family db
 #' @return connection
 #' @export
-connect_to_understat_db <- function() {
-  connect_to_postgres_db(.get_understat_url())
+connect_to_understat_db <- function(...) {
+  url <- .get_understat_url(...)
+  connect_to_postgres_db(url)
 }

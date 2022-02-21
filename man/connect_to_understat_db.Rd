@@ -4,7 +4,10 @@
 \alias{connect_to_understat_db}
 \title{Connect to the understat database}
 \usage{
-connect_to_understat_db()
+connect_to_understat_db(...)
+}
+\arguments{
+\item{...}{additional parameters to pass to \code{secret::get_secret} (not \code{name}). An attempt is made to retrieve the db url from a secret or environment variable at \code{UNDERSTAT_URL}}
 }
 \value{
 connection
